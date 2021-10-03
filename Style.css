@@ -1,0 +1,273 @@
+/*#navbar{
+background-color: #fff;
+color:black;
+border:1px solid #fff;
+
+} */
+
+/*#firstdiv_nav{
+  padding-left: 20px;
+  font-family: 'Lato', sans-serif;
+  }
+*/
+/*#seconddiv{
+    font-size: 35px;
+    padding-right: 50px;
+    justify-content: space-around;
+
+
+}
+#seconddiv #li1{
+  font-size: 20px;
+
+}
+#li2{
+  background-color: black;
+  transition: 5s;
+  color: #fff;
+  display: block;
+
+}
+#li2  active,a:hover{
+    background-color: black;
+    transition: 2s;
+  color: #fff;
+  }*/
+#main{
+      background-image:url(./img/DevNationcroped.jpg);
+      /* background-size: 700px 1000px; */
+      background-position: center;
+      background-repeat: no-repeat;
+   /* background-size: cover;  */
+    background-size:auto 100%; 
+      height: 585px;
+      background-position: center top;
+      top: 150%; 
+      display: block;
+      position: relative;
+      z-index: -1;
+      top:35%;
+      bottom: 10%;
+}
+  /*.headlines-details{
+position: absolute;
+top:160px;
+left: 10px;
+bottom: 30px;
+right: 800px;
+opacity: 0.5s;
+  }*/
+
+  #container_main{
+    width: 65%;
+    height: 75%;
+    /* text-align: left; */
+    padding-left: 70px;
+    position: absolute;    
+    bottom: 30px; 
+    border: 3px solid #fff;
+    /* background-position:left center; */
+    text-align: left;
+    font-family: Lyondisplay,sans-serif;
+     font-size: 35px; 
+     line-height: 50px; 
+     font-weight: 500px; 
+    text-align: left;
+    /* display: inline; */
+    /* margin-left: 0px; */
+    /*margin-left: 30px;
+    margin-bottom: 1px;
+    margin-top: 500px;*/
+  }
+  /*#card{
+    position: absolute;
+    bottom:0; 
+  }*/
+   #Explore_Program{ 
+    background-size: contain;
+    float: left;
+    color:#fff;
+    background-color: red;
+    font: optional;
+    text-align:center;
+    border: 3px solid #fff;
+  }
+
+    /* display: flex; */
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    /*align-self :center;
+    text-align: center;
+    width: 30px;
+    height: 60px;
+    font-weight: bolder;
+    position: initial;
+    /* text-align: justify; */
+    /*margin-left: 25%;
+  } 
+  
+ /*/
+
+  .row{
+    justify-content: center;
+
+  } /*
+  .logo-center{
+    display: block;
+    float: center;
+    justify-content: space-around;
+    size: medium;
+    white-space: nowrap;
+
+  }
+  .logo-center li{
+    justify-content: space-between;
+  }
+  .logo-center li active, img:hover{
+    background-color: aqua;
+    transition: 0.5s;
+    
+  }*/
+  #third-section{
+    text-align: center;
+    font-style: normal;
+    font-style:bold;
+    
+
+  }
+ /* #third-section h3{
+    background-color: red;
+    color:white;
+    border: 1px solid;
+
+  }
+  #third-section h3 a:hover{
+background-color: aqua;
+transition: 0.5s;
+
+  }
+  #third-section h2{
+  font-style:bold;
+  text-decoration: underline;
+
+  }
+  */
+  /*.btn .btn-danger .text-light active, a:hover{
+background-color: rgb(59, 102, 218);
+transition: 0.2s;
+font-weight: bold;
+text-transform: uppercase;
+  }
+ */
+ /*
+ body {
+	background: #678bb3;
+	padding: 0;
+	margin: 0;
+}
+*/
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+  /* text-align: center; */
+ width: 50%; 
+ padding: auto;
+ 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+  position:relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure .card{
+  width: 20%;
+  float:left;
+
+  
+}
+@keyframes slider{
+  0% {
+left:0;
+  }
+  20% {
+    left:0;
+  }
+   25% {
+left: -100%;
+  }
+  /* 45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  } */
+  /* 70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  } */
+/* 100% {
+  left: -400%;
+} */
+}
